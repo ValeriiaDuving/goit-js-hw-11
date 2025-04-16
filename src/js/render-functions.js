@@ -1,6 +1,11 @@
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
+export function createLoader {
+    div.classList.add('loader');
+    gallery.append(div);
+}
+
 const galleryContainer = document.querySelector('.gallery');
 const loader = document.querySelector('.loader');
 
