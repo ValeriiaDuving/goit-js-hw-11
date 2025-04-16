@@ -2,8 +2,9 @@ import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
 export function createLoader() {
-    div.classList.add('loader');
-    gallery.append(div);
+    document.createElement(span);
+    span.classList.add('loader');
+    gallery.append(span);
 }
 
 const galleryContainer = document.querySelector('.gallery');
