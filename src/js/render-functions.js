@@ -1,7 +1,7 @@
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
-export function createLoader {
+export function createLoader() {
     div.classList.add('loader');
     gallery.append(div);
 }
