@@ -8,9 +8,7 @@ export function createLoader() {
 }
 
 const galleryContainer = document.querySelector('.gallery');
-const loader = document.createElement('span');
-loader.classList.add('loader');
-gallery.append(loader);
+const loader = document.querySelector('.loader');
 
 
 let lightbox = new SimpleLightbox('.gallery a', {
