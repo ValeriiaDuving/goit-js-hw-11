@@ -8,7 +8,10 @@ export function createLoader() {
 }
 
 const galleryContainer = document.querySelector('.gallery');
-const loader = document.querySelector('.loader');
+const loader = document.createElement('span');
+loader.classList.add('loader');
+gallery.append(loader);
+
 
 let lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
